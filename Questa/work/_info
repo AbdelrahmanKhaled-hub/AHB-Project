@@ -1,0 +1,253 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/new hard/Digital design internship - Si vision/Project-AHB/Simple_Project/src
+T_opt
+!s110 1754297982
+VGLkfgnQl8d>U4@@5GB6lD1
+Z2 04 6 4 work AHB_tb fast 0
+=1-902e1627e8bc-6890767e-f3-68b0
+Z3 !s124 OEM100
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1754481553
+V]f;1lk23bW19DnOc43VK33
+R2
+=1-902e1627e8bc-68934390-209-3dd0
+R3
+R4
+R5
+n@_opt1
+R6
+vAHB_slave_if
+Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z8 !s110 1754481551
+!i10b 1
+!s100 oiM]1M2zjjB3_c;O;>=UZ1
+IDUb:>9TfY=4W0Gg90L?Mo1
+S1
+Z9 dD:/new hard/Digital design internship - Si vision/Project-AHB/Simple_Project/src2
+w1754295795
+8AHB_slave_if.sv
+FAHB_slave_if.sv
+!i122 122
+L0 1 193
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z12 !s108 1754481551.000000
+Z13 !s107 AHB_tb.sv|AHB_wrapper.sv|MUX.sv|GPIO.sv|Register_File.sv|AHB_slave_if.sv|Decoder.sv|
+Z14 !s90 -reportprogress|300|-f|src_files.list.txt|
+!i113 0
+Z15 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+n@a@h@b_slave_if
+vAHB_tb
+R7
+R8
+!i10b 1
+!s100 gZf]PZ0:m5b_SPTlg[[Vn2
+Id:6A_OFRQA<n@ec?@Y`]13
+S1
+R9
+w1754395275
+8AHB_tb.sv
+FAHB_tb.sv
+!i122 122
+L0 3 338
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R5
+n@a@h@b_tb
+vAHB_wrapper
+R7
+R8
+!i10b 1
+!s100 ICNKUgSea[]J@`70@N@im2
+I7CoG;0Wb>7ZKB_IA]c0TS3
+S1
+R9
+w1754379719
+8AHB_wrapper.sv
+FAHB_wrapper.sv
+!i122 122
+L0 1 192
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R5
+n@a@h@b_wrapper
+vDecoder
+R7
+R8
+!i10b 1
+!s100 EF?6GJNWUaI8DJ1DPE:RZ0
+ImoHH7RDZI[oQoLDzV=J?W0
+S1
+R9
+w1753995899
+8Decoder.sv
+FDecoder.sv
+!i122 122
+L0 1 13
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R5
+n@decoder
+vGPIO
+R7
+R8
+!i10b 1
+!s100 j];236E6lK1=W1T<<:nn72
+IAog3OSHEWe>Snz5E8MKR83
+S1
+R9
+w1754381085
+8GPIO.sv
+FGPIO.sv
+!i122 122
+L0 1 59
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R5
+n@g@p@i@o
+vMux
+R7
+R8
+!i10b 1
+!s100 KKAoXM7k`W5A?>Z]5mW@>1
+IzPhldh>0@UY>jiW0ibPV50
+S1
+R9
+w1754392595
+8MUX.sv
+FMUX.sv
+!i122 122
+L0 3 42
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R5
+n@mux
+vRegister_File
+R7
+R8
+!i10b 1
+!s100 cl4YjN;TW_Fk]^YnTSi5_2
+IhAa1`8^OT4W7Sl2k2UWYl1
+S1
+R9
+w1754393486
+8Register_File.sv
+FRegister_File.sv
+!i122 122
+L0 3 79
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R5
+n@register_@file
