@@ -23,15 +23,4 @@ Address Decoder – Selects the active slave based on the address.
 
 Multiplexer – Routes read data from the active slave to the master.
 
-AHB-Project/
-├── rtl/                  # RTL source code
-│   ├── master/           # Master interface
-│   ├── slaves/           # Slave implementations
-│   ├── decoder.v         # Address decoder
-│   └── mux.v            # Control signal multiplexor
-├── tb/                   # Testbench
-│   └── master_tb.v       # Master testbench
-├── docs/                 # Documentation
-│   ├── spec/             # Protocol specifications
-│   └── timing/           # Timing diagrams
-└── scripts/             # Simulation/validation scripts
+
