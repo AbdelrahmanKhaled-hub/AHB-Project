@@ -22,232 +22,246 @@ R0
 R0
 R0
 R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-R0
-!s11f MIXED_VERSIONS
+!s11f vlog 2021.1 2021.01, Jan 19 2021
 13
 !s112 1.1
 !i10d 8192
 !i10e 25
 !i10f 100
 cModel Technology
-Z1 dD:/new hard/Digital design internship - Si vision/Project-AHB/Simple_Project/src
+dC:/questasim64_2021.1/examples
 T_opt
-!s110 1754297982
-VGLkfgnQl8d>U4@@5GB6lD1
-Z2 04 6 4 work AHB_tb fast 0
-=1-902e1627e8bc-6890767e-f3-68b0
-Z3 !s124 OEM100
-Z4 o-quiet -auto_acc_if_foreign -work work +acc
-Z5 tCvgOpt 0
+!s110 1754899182
+Ven5k22c;V`N>P@]bRMYoN0
+04 6 4 work AHB_tb fast 0
+=1-902e1627e8bc-6899a2ed-3cc-6508
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
 n@_opt
-Z6 OL;O;2021.1;73
-R1
-T_opt1
-!s110 1754481553
-V]f;1lk23bW19DnOc43VK33
-R2
-=1-902e1627e8bc-68934390-209-3dd0
-R3
-R4
-R5
-n@_opt1
-R6
+OL;O;2021.1;73
 vAHB_slave_if
-Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z8 !s110 1754481551
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1754899178
 !i10b 1
-!s100 oiM]1M2zjjB3_c;O;>=UZ1
-IDUb:>9TfY=4W0Gg90L?Mo1
+!s100 `dYm1ZNFH5`:IhMoYNVSF1
+IEM?NRM]G5oP5z0mY8h7aM1
 S1
-Z9 dD:/new hard/Digital design internship - Si vision/Project-AHB/Simple_Project/src2
-w1754295795
+Z4 dD:/new hard/Digital design internship - Si vision/Project-AHB/Simple_Project/Questa
+w1754862854
 8AHB_slave_if.sv
 FAHB_slave_if.sv
-!i122 122
-L0 1 193
-Z10 VDg1SIo80bB@j0V0VzS_@n1
-Z11 OL;L;2021.1;73
+!i122 44
+L0 3 193
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.1;73
 r1
 !s85 0
 31
-Z12 !s108 1754481551.000000
-Z13 !s107 AHB_tb.sv|AHB_wrapper.sv|MUX.sv|GPIO.sv|Register_File.sv|AHB_slave_if.sv|Decoder.sv|
-Z14 !s90 -reportprogress|300|-f|src_files.list.txt|
+Z7 !s108 1754899178.000000
+Z8 !s107 AHB_tb.sv|AHB_wrapper.sv|MUX.sv|Timer.sv|GPIO.sv|Register_File.sv|AHB_slave_if.sv|Decoder.sv|Rst_sync.sv|
+Z9 !s90 -reportprogress|300|-f|src_files.list.txt|
 !i113 0
-Z15 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R5
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
 n@a@h@b_slave_if
 vAHB_tb
-R7
-R8
+R2
+R3
 !i10b 1
-!s100 gZf]PZ0:m5b_SPTlg[[Vn2
-Id:6A_OFRQA<n@ec?@Y`]13
+!s100 1AHa:BW[mMH^W3<=Rk@8`1
+IXDA7UJ@bLVOH;d8[Z0DYn2
 S1
-R9
-w1754395275
+R4
+w1754899172
 8AHB_tb.sv
 FAHB_tb.sv
-!i122 122
-L0 3 338
-R10
-R11
+!i122 44
+L0 3 449
+R5
+R6
 r1
 !s85 0
 31
-R12
-R13
-R14
+R7
+R8
+R9
 !i113 0
-R15
-R5
+R10
+R1
 n@a@h@b_tb
 vAHB_wrapper
-R7
-R8
+R2
+R3
 !i10b 1
-!s100 ICNKUgSea[]J@`70@N@im2
-I7CoG;0Wb>7ZKB_IA]c0TS3
+!s100 eDjnJYc3KLfJlgiD^GKV_1
+I[XEO8=e@JoVH4:?WEDJfO1
 S1
-R9
-w1754379719
+R4
+w1754895001
 8AHB_wrapper.sv
 FAHB_wrapper.sv
-!i122 122
-L0 1 192
-R10
-R11
+!i122 44
+L0 3 272
+R5
+R6
 r1
 !s85 0
 31
-R12
-R13
-R14
+R7
+R8
+R9
 !i113 0
-R15
-R5
+R10
+R1
 n@a@h@b_wrapper
 vDecoder
-R7
-R8
+R2
+R3
 !i10b 1
-!s100 EF?6GJNWUaI8DJ1DPE:RZ0
-ImoHH7RDZI[oQoLDzV=J?W0
+!s100 ??QfA5<U[:kD:R4^:YQIl3
+IOgjTXimKRPNOWo>XmbLdC0
 S1
-R9
-w1753995899
+R4
+w1754862136
 8Decoder.sv
 FDecoder.sv
-!i122 122
-L0 1 13
-R10
-R11
+!i122 44
+L0 3 13
+R5
+R6
 r1
 !s85 0
 31
-R12
-R13
-R14
+R7
+R8
+R9
 !i113 0
-R15
-R5
+R10
+R1
 n@decoder
 vGPIO
-R7
-R8
+R2
+R3
 !i10b 1
-!s100 j];236E6lK1=W1T<<:nn72
-IAog3OSHEWe>Snz5E8MKR83
+!s100 chcYi]Z8c[YUeOkZzVm2I1
+IOM6`97iP4CieZC7OzEk?I3
 S1
-R9
-w1754381085
+R4
+w1754863466
 8GPIO.sv
 FGPIO.sv
-!i122 122
-L0 1 59
-R10
-R11
+!i122 44
+L0 3 70
+R5
+R6
 r1
 !s85 0
 31
-R12
-R13
-R14
-!i113 0
-R15
-R5
-n@g@p@i@o
-vMux
 R7
 R8
+R9
+!i113 0
+R10
+R1
+n@g@p@i@o
+vMux
+R2
+R3
 !i10b 1
 !s100 KKAoXM7k`W5A?>Z]5mW@>1
 IzPhldh>0@UY>jiW0ibPV50
 S1
-R9
+R4
 w1754392595
 8MUX.sv
 FMUX.sv
-!i122 122
+!i122 44
 L0 3 42
-R10
-R11
+R5
+R6
 r1
 !s85 0
 31
-R12
-R13
-R14
-!i113 0
-R15
-R5
-n@mux
-vRegister_File
 R7
 R8
+R9
+!i113 0
+R10
+R1
+n@mux
+vRegister_File
+R2
+R3
 !i10b 1
 !s100 cl4YjN;TW_Fk]^YnTSi5_2
 IhAa1`8^OT4W7Sl2k2UWYl1
 S1
-R9
+R4
 w1754393486
 8Register_File.sv
 FRegister_File.sv
-!i122 122
+!i122 44
 L0 3 79
-R10
-R11
+R5
+R6
 r1
 !s85 0
 31
-R12
-R13
-R14
+R7
+R8
+R9
 !i113 0
-R15
-R5
+R10
+R1
 n@register_@file
+vRst_sync
+R2
+R3
+!i10b 1
+!s100 P>fzXRHI_84h7bW8]^ReL1
+I<d<bKN4@>]U]]_CY?]IQ]1
+S1
+R4
+w1754866048
+8Rst_sync.sv
+FRst_sync.sv
+!i122 44
+L0 1 25
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+n@rst_sync
+vTimer
+R2
+R3
+!i10b 1
+!s100 N@=Rl;BC0>^ja5ezdclo93
+Ic0<?cH_dmWW=7CN05DcWb1
+S1
+R4
+w1754861792
+8Timer.sv
+FTimer.sv
+!i122 44
+L0 3 119
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+n@timer
