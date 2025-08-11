@@ -8,7 +8,7 @@ module Rst_sync #(
 
     logic [STAGES-1:0] sync_reg;
 
-    always_ff @(posedge clk) begin
+    always_ff @(posedge clk, negedge async_rst_n) begin
         if (!async_rst_n) begin
             // Synchronous assertion
             sync_reg <= '0;
